@@ -23,8 +23,8 @@ Grandes telas: Acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 30%;
+        float: left; /* mudar posição da imagem ou texto/div */
+        width: 30%; /* % é conteiner: ou seja, 30% de 100% */
         height: 100%;
         background-position:top right;
     }

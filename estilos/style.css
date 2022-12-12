@@ -10,7 +10,7 @@
     font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* procurar entender melhor sobre  "box-sizing: border-box;"  */
 }
 
 html, body {
@@ -29,7 +29,7 @@ section#login {
     position: absolute;
     top:50%;
     left: 50%;
-    overflow: hidden;
+    overflow: hidden; /* procurar entender melhor sobre " overflow: hidden;" */
 
     background-color: white;
     width: 300px;
@@ -39,7 +39,7 @@ section#login {
     
     transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; /* procurar entender melhor sobre "transition-timing-function: ease;"*/
 }
 
 section#login > div#imagem {
@@ -49,7 +49,7 @@ section#login > div#imagem {
 }
 
 div#formulario {
-    display: block;
+    display: block; /* nao muda nada */
     padding: 10px;
 
 }
@@ -66,9 +66,9 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #5f2c82;
-    border: 1.5px solid #5f2c82;
-    display: block;
-    width: 100%;
+    border: 2.3px solid #5f2c82;
+    display: block; /* nao muda nada */
+    width: 100%; /* nao muda nada */
     height: 50px;
     border-radius: 8px;
     margin: 5px 0px;
@@ -94,10 +94,10 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-7.2px);
+    transform: translateY(-7.2px); /* centralizar o input com a borda, pra cima */
 }
 
-div.campo > input:focus-within {
+div.campo > input:focus-within { /* quando for escrever fica com foco e muda a cor, depois volta ao normal*/
     background-color: white;
 }
 
@@ -114,7 +114,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color:#377875;
+    background-color:#2a5c5a;
 }
 
 form > a.botao {
@@ -137,5 +137,5 @@ form > a.botao:hover {
 }
 
 form > a.botao > span {
-    font-size: 0.8em;
+    font-size: 1em;
 }
